@@ -38,11 +38,9 @@ module.exports = (() => {
     }
 
     function logout() {
-        notificator.showLoading();
         userModel.logoutUser()
             .then(() => {
                 storage.clearSession();
-                notificator.hideLoading();
                 this.redirect('#/about');
                 notificator.showInfo('Logout successful');
             });
