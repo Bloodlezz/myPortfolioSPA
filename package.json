@@ -1,0 +1,23 @@
+{
+  "name": "k0si0_portfolio",
+  "version": "1.0.0",
+  "description": "Konstantin Lazarov's Portfolio",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantin Lazarov",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "dotenv-webpack": "1.7.0",
+    "handlebars": "4.1.2",
+    "jquery": "3.4.0",
+    "sammy": "0.7.6"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "5.0.3",
+    "webpack": "4.30.0",
+    "webpack-cli": "3.3.1"
+  }
+}

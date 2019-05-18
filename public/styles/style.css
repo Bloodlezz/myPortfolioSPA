@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+
+/* NOTIFICATIONS CSS */
+/* The errors/info - position it at the top and in the middle of the screen */
+#error, #info {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 5px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the errors/info */
+    top: 30px; /* 30px from the bottom */
+}
+
+#error {
+    width: 300px; /* Set a default minimum width */
+    margin-left: -150px; /* Divide value of min-width by 2 */
+}
+
+#info {
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#error.show, #info.show {
+    visibility: visible; /* Show the errors/info */
+    /* Add animation: Take 0.5 seconds to fade in and out the errors/info.
+    However, delay the fade out process for 3 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 3s;
+    animation: fadein 0.5s, fadeout 0.5s 3s;
+}
+
+/* Animations to fade the errors/info in and out */
+@-webkit-keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        top: 30px;
+        opacity: 1;
+    }
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        top: 30px;
+        opacity: 1;
+    }
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+/* LOADER CSS */
+.loader {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* CERTIFICATES THUMBNAIL CSS */
+.thumbnail {
+    display: none;
+    height: 300px;
+    overflow: hidden;
+}
+
+.thumbnail a img {
+    width: 70%;
+}
+
+.thumbnail a img {
+    transition: all .3s ease-in-out;
+}
+
+.thumbnail a:hover img {
+    transform: scale(1.1);
+}
+
+/* PROJECTS CSS */
+.section-box-ten {
+    height: 250px;
+    background: radial-gradient(#6e6e6e, #2f2f2f);
+    background: -webkit-radial-gradient(#6e6e6e, #2f2f2f);
+    background: -moz-radial-gradient(#6e6e6e, #2f2f2f);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-box-ten figure {
+    position: absolute;
+    text-align: left;
+    padding: 10px 19px 19px 19px;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.71);
+    bottom: -80%;
+    transition: ease-in-out .5s;
+}
+
+.section-box-ten:hover figure {
+    bottom: 0;
+}
+
+.section-box-ten figure h3 {
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.section-box-ten img {
+    height: 100%;
+}
+
+/* PROJECTS MENU CSS */
+.dropdown-slide > .dropdown-menu {
+    opacity: .3;
+    display: block;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1, 0);
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+.show.dropdown-slide > .dropdown-menu {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+}
+
+/* STYLING */
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.custom-fonts {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.custom-bg {
+    background: rgba(0, 0, 0, 0.40);
+    color: white;
+}
+
+.custom-shadow {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.custom-shadow:hover {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION CSS */
+.navbar li,
+.dropdown-menu .dropdown-item,
+.navbar span {
+    transition: .5s;
+}
+
+.navbar li:hover,
+.is-active,
+.dropdown-menu .dropdown-item:hover,
+.navbar span.navbar-nav:hover {
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus,
+.is-active,
+.dropdown-menu .dropdown-item:hover,
+.navbar span:hover {
+    color: #FFFAF0; !important;
+}

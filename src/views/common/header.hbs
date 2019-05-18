@@ -1,0 +1,45 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-bg custom-shadow custom-fonts rounded mb-20">
+        <a class="navbar-brand" href="#/about">Konstantin Lazarov's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item rounded {{isActive 'about'}}">
+                    <a class="nav-link" href="#/about">About</a>
+                </li>
+                <li class="nav-item dropdown dropdown-slide dropdown-hover rounded {{isActive 'projects'}}">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item {{isActive 'js-express'}}" href="#/projects/js-express">JavaScript Express</a>
+                        <a class="dropdown-item {{isActive 'js-spa'}}" href="#/projects/js-spa">JavaScript SPA</a>
+                        <a class="dropdown-item {{isActive 'php'}}" href="#/projects/php">PHP</a>
+                    </div>
+                </li>
+                <li class="nav-item rounded {{isActive 'certificates'}}">
+                    <a class="nav-link" href="#/certificates">Certificates</a>
+                </li>
+                <li class="nav-item rounded">
+                    <a class="nav-link" href="https://drive.google.com/file/d/1plH_REf0wk1fB-_v6uqFor22nT3c_9j1/view?usp=sharing" target="_blank">CV Download</a>
+                </li>
+            </ul>
+
+            {{#if isGuest}}
+                <span class="navbar-nav rounded {{isActive 'login'}}">
+                    <a class="nav-link" href="#/login">Administration</a>
+                </span>
+            {{else}}
+                <span class="navbar-nav rounded {{isActive 'add'}}">
+                    <a class="nav-link" href="#/project/add">Add Project</a>
+                </span>
+                <span class="navbar-nav rounded">
+                    <a class="nav-link" href="#/logout">Log Out</a>
+                </span>
+            {{/if}}
+
+        </div>
+    </nav>
+
+</header>

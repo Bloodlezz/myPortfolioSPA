@@ -1,0 +1,44 @@
+{{> header}}
+
+<h2 class="custom-bg custom-shadow custom-fonts text-center rounded mb-20">Add project</h2>
+
+<div class="container-fluid h-100">
+    <div class="row justify-content-center align-items-center h-100">
+        <div class="col col-sm-8 col-md-8 col-lg-6 col-xl-6">
+            <form method="POST" action="#/project/add">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="url">URL</label>
+                    <input type="text" name="url" id="url" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="githubUrl">GitHub URL</label>
+                    <input type="text" name="githubUrl" id="githubUrl" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="image">Image name with extension</label>
+                    <input type="text" name="image" id="image" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select name="category" id="category" class="form-control">
+                        <option value="choose">choose</option>
+                        <option value="js-express">JavaScript Express</option>
+                        <option value="js-spa">JavaScript SPA</option>
+                        <option value="php">PHP</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-info btn-block">Add Project</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
