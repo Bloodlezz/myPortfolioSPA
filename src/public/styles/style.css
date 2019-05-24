@@ -109,42 +109,6 @@
     transform: scale(1.1);
 }
 
-/* PROJECTS CSS */
-.section-box-ten {
-    height: 250px;
-    background: radial-gradient(#6e6e6e, #2f2f2f);
-    background: -webkit-radial-gradient(#6e6e6e, #2f2f2f);
-    background: -moz-radial-gradient(#6e6e6e, #2f2f2f);
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-}
-
-.section-box-ten figure {
-    position: absolute;
-    text-align: left;
-    padding: 10px 19px 19px 19px;
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid #fff;
-    background: rgba(0, 0, 0, 0.71);
-    bottom: -80%;
-    transition: ease-in-out .5s;
-}
-
-.section-box-ten:hover figure {
-    bottom: 0;
-}
-
-.section-box-ten figure h3 {
-    margin: 0;
-    padding-bottom: 16px;
-}
-
-.section-box-ten img {
-    height: 100%;
-}
-
 /* PROJECTS MENU CSS */
 .dropdown-slide > .dropdown-menu {
     opacity: .3;

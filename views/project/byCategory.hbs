@@ -6,25 +6,27 @@
 <h2 class="custom-bg custom-shadow custom-fonts text-center rounded mb-20">No {{categoryName}} projects yet</h2>
 {{/if}}
 
-<div class="row justify-content-center">
-
-    {{#if projects}}
-        {{#each projects}}
-            <div class="col-lg-6 center-block mb-3">
-                <div class="section-box-ten">
-                    <figure>
-                        <h3>{{title}}</h3>
-                        <p>{{description}}</p>
-                        <a href="{{url}}" class="btn btn-read" target="_blank"><i class="far fa-eye fa-2x text-white"></i></a>
-                        <a href="{{githubUrl}}" class="btn btn-read" target="_blank"><i class="fab fa-github-square fa-2x text-white"></i></a>
+{{#if projects}}
+    {{#each projects}}
+        <div class="col-lg-12 center-block mb-3 custom-bg custom-shadow rounded">
+            <div class="col-lg-6">
+                <h3 class="text-center">{{title}}</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-10">
+                    <a href="{{url}}" class="btn btn-read" target="_blank" title="View"><img src="./public/images/projects/{{image}}" class="img-fluid rounded"/></a>
+                </div>
+                <div class="col">
+                    <p>{{description}}</p>
+                    <div class="text-center">
+                        <a href="{{url}}" class="btn btn-read" target="_blank" title="View"><i class="far fa-eye fa-2x text-white"></i></a>
+                        <a href="{{githubUrl}}" class="btn btn-read" target="_blank" title="GitHub"><i class="fab fa-github-square fa-2x text-white"></i></a>
                         {{#unless ../isGuest}}
-                            <a href="#/project/edit/{{_id}}" class="btn btn-read"><i class="far fa-edit fa-2x text-white"></i></a>
+                            <a href="#/project/edit/{{_id}}" class="btn btn-read" title="Edit"><i class="far fa-edit fa-2x text-white"></i></a>
                         {{/unless}}
-                    </figure>
-                    <img src="./public/images/projects/{{image}}" class="img-fluid"/>
+                    </div>
                 </div>
             </div>
-        {{/each}}
-    {{/if}}
-
-</div>
+        </div>
+    {{/each}}
+{{/if}}
