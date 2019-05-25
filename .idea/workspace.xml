@@ -144,6 +144,13 @@
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -165,7 +172,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/images/projects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -173,19 +180,19 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Portfolio\src\public\images\projects" />
+      <recent name="C:\Projects\Portfolio\src\public\images" />
+      <recent name="C:\Projects\Portfolio" />
+      <recent name="C:\Projects\Portfolio\src\views\project" />
+      <recent name="C:\Projects\Portfolio\src\public\images\certificates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\Portfolio" />
       <recent name="C:\Projects\Portfolio\dist" />
       <recent name="C:\Projects\Portfolio\src\public" />
       <recent name="C:\Projects\Portfolio\src\css" />
       <recent name="C:\Projects\Portfolio\src\utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\Portfolio\src\public\images" />
-      <recent name="C:\Projects\Portfolio\src\public\images\projects" />
-      <recent name="C:\Projects\Portfolio" />
-      <recent name="C:\Projects\Portfolio\src\views\project" />
-      <recent name="C:\Projects\Portfolio\src\public\images\certificates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,16 +237,17 @@
       <workItem from="1558211677482" duration="5126000" />
       <workItem from="1558731695854" duration="8973000" />
       <workItem from="1558824549398" duration="39000" />
+      <workItem from="1558825064835" duration="100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218537000" />
+    <option name="totallyTimeSpent" value="218637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -252,7 +260,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4968017" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4968017" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50319827" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -269,7 +277,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/public/styles/bootstrap-4.1.2/popper.js" />
     <entry file="file://$PROJECT_DIR$/src/public/js/contact.js" />
     <entry file="file://$PROJECT_DIR$/src/public/plugins/easing/easing.js" />
     <entry file="file://$PROJECT_DIR$/src/public/js/custom.js" />
@@ -520,6 +527,9 @@
           <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/images/projects/background.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/common/header.hbs">
       <provider selected="true" editor-type-id="text-editor">
