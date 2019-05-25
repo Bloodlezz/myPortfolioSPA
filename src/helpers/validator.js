@@ -33,10 +33,10 @@ module.exports = (() => {
 
             switch (key) {
                 case 'title':
-                    const titleRegex = RegExp('^.{3,20}$');
+                    const titleRegex = RegExp('^.{3,30}$');
                     titleRegex.test(dataObj[key])
                         ? validInput(currentInput)
-                        : invalidInput(currentInput, 'Minimum 1, maximum 20 characters allowed!');
+                        : invalidInput(currentInput, 'Minimum 1, maximum 30 characters allowed!');
                     break;
 
                 case 'description':
