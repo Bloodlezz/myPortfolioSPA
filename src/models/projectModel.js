@@ -11,7 +11,7 @@ module.exports = (() => {
     }
 
     function getAllByCategory(category) {
-        return requester.get('appdata', `projects?query={"category":"${category}"}`, 'free');
+        return requester.get('appdata', `projects?query={"category":"${category}"}&sort={"_kmd.lmt": -1}`, 'free');
     }
 
     function getProject(id) {
