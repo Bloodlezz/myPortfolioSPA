@@ -17,13 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/helpers/validator.js">
+        <entry file="file://$PROJECT_DIR$/src/views/project/edit.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="307">
+              <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -89,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/utils/storage.js" />
         <option value="$PROJECT_DIR$/src/helpers/hbsHelpers.js" />
         <option value="$PROJECT_DIR$/src/models/projectModel.js" />
-        <option value="$PROJECT_DIR$/src/views/project/edit.hbs" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -106,10 +102,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/views/common/header.hbs" />
         <option value="$PROJECT_DIR$/src/helpers/validator.js" />
+        <option value="$PROJECT_DIR$/src/views/project/edit.hbs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="100" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -121,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,19 +189,19 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\Portfolio\src\public\images\projects" />
-      <recent name="C:\Projects\Portfolio\src\public\images" />
-      <recent name="C:\Projects\Portfolio" />
-      <recent name="C:\Projects\Portfolio\src\views\project" />
-      <recent name="C:\Projects\Portfolio\src\public\images\certificates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\Portfolio" />
       <recent name="C:\Projects\Portfolio\dist" />
       <recent name="C:\Projects\Portfolio\src\public" />
       <recent name="C:\Projects\Portfolio\src\css" />
       <recent name="C:\Projects\Portfolio\src\utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Portfolio\src\public\images\projects" />
+      <recent name="C:\Projects\Portfolio\src\public\images" />
+      <recent name="C:\Projects\Portfolio" />
+      <recent name="C:\Projects\Portfolio\src\views\project" />
+      <recent name="C:\Projects\Portfolio\src\public\images\certificates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,18 +248,19 @@
       <workItem from="1558824549398" duration="39000" />
       <workItem from="1558825064835" duration="100000" />
       <workItem from="1558825355332" duration="123000" />
-      <workItem from="1558826490167" duration="25000" />
+      <workItem from="1558826490167" duration="162000" />
+      <workItem from="1559252149076" duration="220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218785000" />
+    <option name="totallyTimeSpent" value="219142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,13 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/project/edit.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -548,6 +539,13 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/project/edit.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
         </state>
       </provider>
     </entry>
