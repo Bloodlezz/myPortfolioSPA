@@ -2,9 +2,10 @@ const storage = require('../utils/storage');
 
 module.exports = (() => {
 
-    storage.saveAsJson('validator', {});
 
     function validateFormData(dataObj, formName) {
+        storage.saveAsJson('validator', {});
+
         let formsValidation = {
             login: loginValidation,
             project: projectValidation
