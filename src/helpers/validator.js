@@ -41,10 +41,10 @@ module.exports = (() => {
                     break;
 
                 case 'description':
-                    const descriptionRegex = RegExp('^.{10,330}$');
+                    const descriptionRegex = RegExp('^.{10,500}$');
                     descriptionRegex.test(dataObj[key])
                         ? validInput(currentInput)
-                        : invalidInput(currentInput, 'Minimum 10, maximum 330 characters allowed!');
+                        : invalidInput(currentInput, 'Minimum 10, maximum 500 characters allowed!');
                     break;
 
                 case 'url':
